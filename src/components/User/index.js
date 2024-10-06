@@ -29,7 +29,7 @@ const User = () => {
         let stored = localStorage.getItem("username")
         localStorage.setItem("username",stored)
     },[])
-    const fullURL = window.location.href;
+    const fullURL ="https://premg514.github.io/quiz-game/";
     return (
         <div className="loginComp">
             

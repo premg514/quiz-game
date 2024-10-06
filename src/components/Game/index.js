@@ -20,7 +20,7 @@ const Game = () => {
         changeUsername(stored)
     },[username,changeUsername])
     if( username===""){
-        navigate("/")
+        navigate("/quiz-game/")
     }
     return (
         

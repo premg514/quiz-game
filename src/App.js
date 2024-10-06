@@ -12,7 +12,7 @@ function App() {
             {/* Wrap your Routes in the DataProvider */}
             <DataProvider>
                 <Routes>
-                    <Route exact path="/" element={<User />} />
+                    <Route exact path="/quiz-game/" element={<User />} />
                     <Route exact path="/game" element={<Game />} />
                     <Route exact path='success' element={<Success/>}/>
                     <Route exact path='/feedback' element={<Feedback/>}/>
