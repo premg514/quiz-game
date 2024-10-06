@@ -1,0 +1,16 @@
+/* Apply Flexbox to center the content */
+.feedbackComp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Full viewport height to center vertically */
+    text-align: center; /* Center text */
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}

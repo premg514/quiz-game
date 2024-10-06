@@ -1,0 +1,21 @@
+/* Ensure the parent container is a flexbox and centers its content */
+.gameComp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Full height to center vertically */
+    text-align: center; /* Align text to the center */
+}
+
+/* Style for each choice, align the radio buttons properly */
+.choices {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+/* Optional: To style the radio button */
+input[type="radio"] {
+    margin-left: 10px;
+}
